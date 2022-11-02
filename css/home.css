@@ -1,0 +1,41 @@
+.welcome {
+background-color: var(--bg-primary);
+height: 100vh;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.welcome p {
+color: var(--text-light);
+}
+
+.welcome .orange-decoration {
+    color: var(--text-secondary);
+}
+
+.welcome img {
+    height: 24px;
+    margin-left: 4px;
+
+    position: relative;
+    top: 4px;
+
+}
+
+.welcome a {
+    color: var(--text-light);
+    background-color: #2bb686;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 1px solid #2bb686;
+    border-radius: 4px;
+
+    width: 240px;
+    text-align: center;
+}
+
+.welcome a:hover {
+    background-color: transparent;
+}
